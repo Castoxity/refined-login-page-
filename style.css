@@ -78,7 +78,6 @@ form{
     text-align: left;
     padding-top:70px;
     padding-bottom:10px;
-    
 }
 #create{
     background: linear-gradient(135deg, #61d7f4, #3a9ab1);
@@ -89,6 +88,7 @@ form{
     padding-right:15%;
     padding-left:15%;
     margin-right:2px;
+    cursor:pointer;
 }
 .login{
     padding-top:10px;
