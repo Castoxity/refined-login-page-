@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    padding:0;
     margin:0;
-    font-family:Poppins;
+    padding:0;
 }
 html,
 body{
     overflow: hidden;
     background-image:url('/images/background.jpg');
-
+    font-family: Poppins;
 }
 .parent{
     display:flex;
@@ -19,7 +18,7 @@ body{
     top:90px;
     left:40px;
     width:55%;
-    height:85vh;
+    height:80vh;
     background-color: black;
 }
 .right-parent{
@@ -28,60 +27,60 @@ body{
     top:90px;
     right:6px;
     width:41%;
-    height:85vh;
+    height:80vh;
     background-color:#222C48;
-
 }
 .right-info{
     display:flex;
     flex-direction: column;
     position:relative;
-    top:60px;
-    left:25%;
-    
+    top:16%;
+    left:35%;
 }
-#sign{
-    color:#65C8E0;
+.login{
+    padding-bottom:10px;
+    padding-left:11%;
 }
-.sign{
-    padding-left:110px;
+#login{
     font-size:24px;
     font-weight:800;
+    color:#65C8E0;
+}
+.top{
+    padding-bottom:20px;
+}
+.subtitle-1{
+    color:#7F838B;
+    font-size:14px;
 }
 .details{
-   padding-top:50px;
-   scale:1.2;
+    padding-top:5px;
+    padding-left:10px;
+    scale:1.2;
 }
 input{
     border:none;
     border-radius:4px;
-    padding-top:2px;
+    padding-top:5px;
     padding-bottom:2px;
-    padding-right:30%;
+    padding-right:20%;
     margin-top:5px;
     margin-bottom:5px;
 }
-form{
+#email,
+#pass{
     font-size:13px;
     font-weight:600;
+    color:white;
 }
-#dob-box{
 
-    padding-left:35px;
-}
-.subtitle1{
-    color:#7F838B;
-    padding-top:5px;
-    font-size:14px;
-    padding-left:30px;
-}
-.create{
-    text-align: left;
-    padding-top:70px;
+.button{
+    padding-top:30px;
     padding-bottom:10px;
+    margin-right:60px;
     
 }
-#create{
+#button{
     background: linear-gradient(135deg, #61d7f4, #3a9ab1);
     border:none;
     border-radius: 6px;
@@ -91,25 +90,38 @@ form{
     padding-left:15%;
     margin-right:2px;
 }
-.login{
-    padding-top:10px;
-padding-left:40px;
-}
-.username,
-.dob,
-.email,
-.pass,
-.c-pass{
-    color:white;
-}
-a{
-    color:#61BED6;
-    text-decoration-line: none;
-}
-#left-img{
-    width:100%;
-    height:auto;
-}
-#already{
+.checkbox{
     color:#7F838B;
+    padding-top:3px;
+    padding-left:10px;
+}
+.forgot{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:50px;
+    color:#65C8E0;
+}
+.account{
+    padding-right:57%;
+}
+#account{
+    color:#7F838B;
+}
+#register{
+    color:#65C8E0;
+}
+#line1{
+    margin-top:5%;
+    width:90%;
+    margin-left:5%;
+}
+#line2{
+    position:relative;
+    top:30%;
+    width:90%;
+    margin-left:5%;
+}
+#welcome{
+    width:96%;
+    height:100%;
 }
