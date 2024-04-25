@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,
+body{
+    overflow: hidden;
+    background-image:url('/images/background.jpg');
+
+}
+.parent{
+    display:flex;
+}
+.left-parent{
+    position:relative;
+    top:90px;
+    left:40px;
+    width:55%;
+    height:85vh;
+    background-color: black;
+}
+.right-parent{
+    margin-left:4px;
+    position:relative;
+    top:90px;
+    right:6px;
+    width:41%;
+    height:85vh;
+    background-color:#222C48;
+
+}
+.right-info{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    top:60px;
+    left:25%;
+    
+}
+#sign{
+    color:#65C8E0;
+}
+.sign{
+    padding-left:110px;
+    font-size:20px;
+    font-weight:500;
+}
+.details{
+   padding-top:20px;
+}
+input{
+    border:none;
+    border-radius:4px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-right:30%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#dob-box{
+
+    padding-left:50px;
+}
+.subtitle1{
+    padding-top:5px;
+    font-size:14px;
+    padding-left:30px;
+}
+.create{
+    text-align: left;
+    padding-top:10px;
+    padding-left:5%;
+    padding-bottom:10px;
+}
+#create{
+    border:none;
+    border-radius: 6px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:20%;
+    padding-left:20%;
+}
+.login{
+    padding-left:13%;
+}
+.username,
+.dob,
+.email,
+.pass,
+.c-pass{
+    color:white;
+}
+a{
+    color:#61BED6;
+    text-decoration-line: none;
+}
+#left-img{
+    width:100%;
+    height:auto;
+}
