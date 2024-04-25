@@ -4,7 +4,7 @@ function submitForm(event) {
     if (!inputField.value.trim()) {
         alert('Please fill in the input field.'); // Show an alert or other message
     } else {
-        window.location.href = 'first.html';
+        window.location.href = 'verification.html';
 
     }
 }
